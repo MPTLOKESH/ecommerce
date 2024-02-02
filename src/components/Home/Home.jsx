@@ -57,7 +57,7 @@ const Home = () => {
                 value={query}
                 onChange={(e) => onSearchProduct(e.target.value)}
                 placeholder="Search your needs here"
-                className="hidden lg:block lg:h-[30px] lg:w-[70rem] lg:rounded-[20px] lg:p-[20px] lg:bg-[#F1F1F1] lg:text-[12px] lg:text-black lg:font-thin lg:drop-shadow-md"
+                className="hidden lg:block lg:h-[30px] lg:w-[70rem] lg:rounded-[20px] lg:p-[20px] lg:bg-[#F1F1F1] lg:text-[12px] text-black lg:font-thin lg:drop-shadow-md"
               />
             </div>
             <div className="flex items-center gap-2 lg:gap-3 ">
