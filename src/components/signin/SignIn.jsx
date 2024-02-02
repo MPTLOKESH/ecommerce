@@ -57,7 +57,7 @@ const SignIn = () => {
   return (
     <>
       <div className="bg-[#D50D3E] w-full h-screen flex justify-center items-center relative">
-        <div className="w-[280px] h-[450px] bg-white rounded-[30px] lg:w-[450px] lg:h-[500px]">
+        <div className="w-[280px] h-[410px] bg-white rounded-[30px] lg:w-[450px] lg:h-[500px]">
           <div className="flex flex-col gap-5 lg:gap-7 items-center p-5">
             <div>
               <p className="text-[16px] font-bold text-center lg:text-[20px]">
