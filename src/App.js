@@ -18,8 +18,8 @@ const App = () => {
       <div className="min-h-screen w-screen relative">
         <Router>
           <Routes>
-            <Route index element={<Welcome />} />
-            <Route path="/Signin" element={<SignIn />} />
+            // <Route index element={<Welcome />} />
+            <Route index element={<SignIn />} />
             <Route path="/Home" element={<Home />} />
             <Route path="/product/:id" element={<Product />} />
             <Route path="/product/:id/cart" element={<Cart />} />
